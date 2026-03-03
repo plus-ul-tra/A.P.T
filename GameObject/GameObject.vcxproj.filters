@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection.cpp">
+      <Filter>Reflection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentRegistration.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshRenderer.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovementComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIFSMComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionFSMComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimFSMComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMEventRegistry.cpp">
+      <Filter>Components\Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMActionRegistry.cpp">
+      <Filter>Components\Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectLightComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeTestComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentTemplate.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxColliderComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinningAnimationComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSystemComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStatComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputEventTestComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyControllerComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMovementComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodUIComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodSystemComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCombatFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDoorFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventoryFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPushFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShopFSMComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraLogicComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextComponent.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIProgressBarComponent.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UISliderComponent.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImageComponent.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButtonComponent.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HorizontalBox.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleBox.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeBox.cpp">
+      <Filter>Components\UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PushNodeComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitiativeUIComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerVisualPresetComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSpawnerComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDiceDisplayComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDicePanelComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDiceRollAnimationComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UINumberSpriteComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoatComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoatEndComponent.cpp">
+      <Filter>Components\Default\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VendingComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterRiseComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraLogicComponent2.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDelayComponent.cpp">
+      <Filter>Components\UserDefine\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTypes.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionMacro.h">
+      <Filter>Reflection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection.h">
+      <Filter>Reflection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Reflection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshRenderer.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovementComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimFSMComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionFSMComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIFSMComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimBlendCurveFunction.h">
+      <Filter>Components\Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSettings.h">
+      <Filter>Components\Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMActionRegistry.h">
+      <Filter>Components\Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSMEventRegistry.h">
+      <Filter>Components\Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectLightComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeTestComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTemplate.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxColliderComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinningAnimationComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSystemComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStatComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputEventTestComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyControllerComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMovementComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodUIComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodSystemComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCombatFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDoorFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventoryFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPushFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShopFSMComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraLogicComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPrimitives.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextComponent.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UISliderComponent.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIProgressBarComponent.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImageComponent.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButtonComponent.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HorizontalBox.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleBox.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeBox.h">
+      <Filter>Components\UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PushNodeComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitiativeUIComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerVisualPresetComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSpawnerComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDiceDisplayTypes.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDicePanelTypes.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDiceDisplayComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDicePanelComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDiceRollAnimationComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UINumberSpriteComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoatComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoatEndComponent.h">
+      <Filter>Components\Default\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VendingComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterRiseComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraLogicComponent2.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDelayComponent.h">
+      <Filter>Components\UserDefine\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{52d4bb5d-f8cb-4636-98f0-0862c24516da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{556b89d4-05ce-4ab7-b3fe-e4ddf6ff7a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Header Files">
+      <UniqueIdentifier>{994a7901-b27b-4ac5-bdd1-26e8669ec0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source Files">
+      <UniqueIdentifier>{5b944315-1acd-4d83-8799-110f9d0f50de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{7c42dae0-0e6a-4543-943b-17059a8a4ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\Header Files">
+      <UniqueIdentifier>{97353ede-ee33-44b9-956d-276481e7ed60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\Source Files">
+      <UniqueIdentifier>{8c211b32-5e0f-4eb8-b840-2ce14980ebaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Utils">
+      <UniqueIdentifier>{5cf8f405-2299-4f82-95bd-4b61ddd3ca6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UserDefine">
+      <UniqueIdentifier>{f514e728-7262-400f-8bee-3f218074c7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UserDefine\Header Files">
+      <UniqueIdentifier>{be4e40f7-a961-4976-8d81-1dcff3a844d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UserDefine\Source Files">
+      <UniqueIdentifier>{fde05868-3eac-4265-8de8-8562608ae124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Default">
+      <UniqueIdentifier>{b48fea57-c118-4f76-8011-8e6341929e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Default\Header Files">
+      <UniqueIdentifier>{ad8dc0c8-27c0-4262-8902-68dfeac53f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Default\Source Files">
+      <UniqueIdentifier>{8e2edd01-4c5b-4c65-9cde-083e98d3cdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Utils\Header Files">
+      <UniqueIdentifier>{f5581adb-113b-43ff-8677-5458bb91d7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Utils\Source Files">
+      <UniqueIdentifier>{c7443698-6f50-4d0f-9468-826b8502fc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI">
+      <UniqueIdentifier>{fca0c5c4-4bf3-4095-8abb-312831406070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI\Header Files">
+      <UniqueIdentifier>{526cc95b-62d3-4628-83bd-50f6f379d6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI\Source Files">
+      <UniqueIdentifier>{46414225-d999-430c-aa13-eb46d6dc4ac2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameObject.rc" />
+  </ItemGroup>
+</Project>

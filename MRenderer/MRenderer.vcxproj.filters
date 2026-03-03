@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{6d4d7610-882a-4f02-bf5c-4318dae2c4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderPass">
+      <UniqueIdentifier>{58c2f194-66d7-4392-a877-cc32a67ef6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderPass\Header Files">
+      <UniqueIdentifier>{5de57f90-8bff-44ea-a4f3-4e1fe5b24d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderPass\Source Files">
+      <UniqueIdentifier>{54b687b2-7415-42a4-845d-bf75f32fc623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\0_VS">
+      <UniqueIdentifier>{403d0be8-19de-47fa-8b86-43bff56cd789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\1_PS">
+      <UniqueIdentifier>{eb9bc4a6-7228-4426-b474-2cefbb4df304}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpaquePass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugLinePass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WallPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractionPass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmissivePass.cpp">
+      <Filter>RenderPass\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpaquePass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLinePass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WallPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractionPass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmissivePass.h">
+      <Filter>RenderPass\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="fx\BaseBuffer.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo.fx">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Lights.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Animation.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Ani_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_FullScreen_Triangle_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_PBR_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Shadow_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_VS_POS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Wall_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Post_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Quad_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Test_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\SkyBox_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Ani_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_PBR_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_PS_POS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Shadow_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Wall_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Frustum_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Post_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Quad_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\SkyBox_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Test_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Animation.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Ani_PS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Ani_VS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Refraction_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Refraction_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Emissive_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_Emissive_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_MakeShadow_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_MakeShadow_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\Demo_MakeShadowTransparent_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\UI_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\UI_VS.hlsl">
+      <Filter>HLSL\0_VS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\UI_ProgressArc_Left_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\UI_ProgressArc_Right_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+    <FxCompile Include="fx\UI_ProgressRect_Mask_PS.hlsl">
+      <Filter>HLSL\1_PS</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

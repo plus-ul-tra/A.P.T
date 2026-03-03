@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugEditor|Win32">
+      <Configuration>DebugEditor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugEditor|x64">
+      <Configuration>DebugEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_NoneBlur|Win32">
+      <Configuration>Debug_NoneBlur</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_NoneBlur|x64">
+      <Configuration>Debug_NoneBlur</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseEditor|Win32">
+      <Configuration>ReleaseEditor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseEditor|x64">
+      <Configuration>ReleaseEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoneBlur|Win32">
+      <Configuration>Release_NoneBlur</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoneBlur|x64">
+      <Configuration>Release_NoneBlur</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{27a8092d-9702-4ab5-9e74-0a204595aad5}</ProjectGuid>
+    <RootNamespace>GameObjcet</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GameObject</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release_NoneBlur|Win32'">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release_NoneBlur|x64'">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Common;$(SolutionDir)AI;$(SolutionDir)Event; $(SolutionDir)Engine; $(SolutionDir)Client;$(SolutionDir)SoundSystem; $(SolutionDir)ThirdParty\FMOD\inc; $(SolutionDir)ResourceManager;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Common;$(SolutionDir)AI;$(SolutionDir)Event; $(SolutionDir)Engine; $(SolutionDir)Client;$(SolutionDir)SoundSystem; $(SolutionDir)ThirdParty\FMOD\inc; $(SolutionDir)ResourceManager;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Common;$(SolutionDir)AI;$(SolutionDir)Event; $(SolutionDir)Engine; $(SolutionDir)Client;$(SolutionDir)SoundSystem; $(SolutionDir)ThirdParty\FMOD\inc; $(SolutionDir)ResourceManager;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Common;$(SolutionDir)AI;$(SolutionDir)Event; $(SolutionDir)Engine; $(SolutionDir)Client;$(SolutionDir)SoundSystem; $(SolutionDir)ThirdParty\FMOD\inc; $(SolutionDir)ResourceManager;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Common;$(SolutionDir)AI;$(SolutionDir)Event; $(SolutionDir)Engine; $(SolutionDir)Client;$(SolutionDir)SoundSystem; $(SolutionDir)ThirdParty\FMOD\inc; $(SolutionDir)ResourceManager;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="AnimBlendCurveFunction.h" />
+    <ClInclude Include="AnimFSMComponent.h" />
+    <ClInclude Include="BoatComponent.h" />
+    <ClInclude Include="BoatEndComponent.h" />
+    <ClInclude Include="Border.h" />
+    <ClInclude Include="BoxColliderComponent.h" />
+    <ClInclude Include="CameraLogicComponent.h" />
+    <ClInclude Include="CameraLogicComponent2.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="ComponentTemplate.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoneBlur|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DoorComponent.h" />
+    <ClInclude Include="EnemyComponent.h" />
+    <ClInclude Include="EnemyControllerComponent.h" />
+    <ClInclude Include="EnemyMovementComponent.h" />
+    <ClInclude Include="EnemyStatComponent.h" />
+    <ClInclude Include="ExitComponent.h" />
+    <ClInclude Include="FloodSystemComponent.h" />
+    <ClInclude Include="FloodUIComponent.h" />
+    <ClInclude Include="GridSystemComponent.h" />
+    <ClInclude Include="HorizontalBox.h" />
+    <ClInclude Include="InitiativeUIComponent.h" />
+    <ClInclude Include="InputEventTestComponent.h" />
+    <ClInclude Include="ItemComponent.h" />
+    <ClInclude Include="ItemSpawnerComponent.h" />
+    <ClInclude Include="NodeComponent.h" />
+    <ClInclude Include="PlayerCombatFSMComponent.h" />
+    <ClInclude Include="PlayerComponent.h" />
+    <ClInclude Include="PlayerDoorFSMComponent.h" />
+    <ClInclude Include="PlayerFSMComponent.h" />
+    <ClInclude Include="PlayerInventoryFSMComponent.h" />
+    <ClInclude Include="PlayerMoveFSMComponent.h" />
+    <ClInclude Include="PlayerPushFSMComponent.h" />
+    <ClInclude Include="PlayerShopFSMComponent.h" />
+    <ClInclude Include="PlayerStatComponent.h" />
+    <ClInclude Include="PlayerVisualPresetComponent.h" />
+    <ClInclude Include="PushNodeComponent.h" />
+    <ClInclude Include="RectLightComponent.h" />
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="CameraObject.h" />
+    <ClInclude Include="CameraSettings.h" />
+    <ClInclude Include="CollisionFSMComponent.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="CoreTypes.h" />
+    <ClInclude Include="DirectionalLightComponent.h" />
+    <ClInclude Include="FSMActionRegistry.h" />
+    <ClInclude Include="FSMComponent.h" />
+    <ClInclude Include="FSMEventRegistry.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="LightComponent.h" />
+    <ClInclude Include="MaterialComponent.h" />
+    <ClInclude Include="MeshComponent.h" />
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="PlayerMovementComponent.h" />
+    <ClInclude Include="PointLightComponent.h" />
+    <ClInclude Include="Reflection.h" />
+    <ClInclude Include="ReflectionMacro.h" />
+    <ClInclude Include="ScaleBox.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SceneChangeTestComponent.h" />
+    <ClInclude Include="SceneDelayComponent.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="SizeBox.h" />
+    <ClInclude Include="SkeletalMeshComponent.h" />
+    <ClInclude Include="SkeletalMeshRenderer.h" />
+    <ClInclude Include="SkinningAnimationComponent.h" />
+    <ClInclude Include="SpotLightComponent.h" />
+    <ClInclude Include="StatComponent.h" />
+    <ClInclude Include="TransformComponent.h" />
+    <ClInclude Include="UIButtonComponent.h" />
+    <ClInclude Include="UIComponent.h" />
+    <ClInclude Include="UIDiceDisplayComponent.h" />
+    <ClInclude Include="UIDiceDisplayTypes.h" />
+    <ClInclude Include="UIDicePanelComponent.h" />
+    <ClInclude Include="UIDicePanelTypes.h" />
+    <ClInclude Include="UIDiceRollAnimationComponent.h" />
+    <ClInclude Include="UIFSMComponent.h" />
+    <ClInclude Include="UIImageComponent.h" />
+    <ClInclude Include="UINumberSpriteComponent.h" />
+    <ClInclude Include="UIObject.h" />
+    <ClInclude Include="UIPrimitives.h" />
+    <ClInclude Include="UIProgressBarComponent.h" />
+    <ClInclude Include="UISliderComponent.h" />
+    <ClInclude Include="UITextComponent.h" />
+    <ClInclude Include="VendingComponent.h" />
+    <ClInclude Include="WaterRiseComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="AnimFSMComponent.cpp" />
+    <ClCompile Include="BoatComponent.cpp" />
+    <ClCompile Include="BoatEndComponent.cpp" />
+    <ClCompile Include="Border.cpp" />
+    <ClCompile Include="BoxColliderComponent.cpp" />
+    <ClCompile Include="CameraLogicComponent.cpp" />
+    <ClCompile Include="CameraLogicComponent2.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="ComponentTemplate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_NoneBlur|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_NoneBlur|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DoorComponent.cpp" />
+    <ClCompile Include="EnemyComponent.cpp" />
+    <ClCompile Include="EnemyControllerComponent.cpp" />
+    <ClCompile Include="EnemyMovementComponent.cpp" />
+    <ClCompile Include="EnemyStatComponent.cpp" />
+    <ClCompile Include="ExitComponent.cpp" />
+    <ClCompile Include="FloodSystemComponent.cpp" />
+    <ClCompile Include="FloodUIComponent.cpp" />
+    <ClCompile Include="GridSystemComponent.cpp" />
+    <ClCompile Include="HorizontalBox.cpp" />
+    <ClCompile Include="InitiativeUIComponent.cpp" />
+    <ClCompile Include="InputEventTestComponent.cpp" />
+    <ClCompile Include="ItemComponent.cpp" />
+    <ClCompile Include="ItemSpawnerComponent.cpp" />
+    <ClCompile Include="NodeComponent.cpp" />
+    <ClCompile Include="PlayerCombatFSMComponent.cpp" />
+    <ClCompile Include="PlayerComponent.cpp" />
+    <ClCompile Include="PlayerDoorFSMComponent.cpp" />
+    <ClCompile Include="PlayerFSMComponent.cpp" />
+    <ClCompile Include="PlayerInventoryFSMComponent.cpp" />
+    <ClCompile Include="PlayerMoveFSMComponent.cpp" />
+    <ClCompile Include="PlayerPushFSMComponent.cpp" />
+    <ClCompile Include="PlayerShopFSMComponent.cpp" />
+    <ClCompile Include="PlayerStatComponent.cpp" />
+    <ClCompile Include="PlayerVisualPresetComponent.cpp" />
+    <ClCompile Include="PushNodeComponent.cpp" />
+    <ClCompile Include="RectLightComponent.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="CameraObject.cpp" />
+    <ClCompile Include="CollisionFSMComponent.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentRegistration.cpp" />
+    <ClCompile Include="DirectionalLightComponent.cpp" />
+    <ClCompile Include="FSMActionRegistry.cpp" />
+    <ClCompile Include="FSMComponent.cpp" />
+    <ClCompile Include="FSMEventRegistry.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="LightComponent.cpp" />
+    <ClCompile Include="MaterialComponent.cpp" />
+    <ClCompile Include="MeshComponent.cpp" />
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="PlayerMovementComponent.cpp" />
+    <ClCompile Include="PointLightComponent.cpp" />
+    <ClCompile Include="Reflection.cpp" />
+    <ClCompile Include="ScaleBox.cpp" />
+    <ClCompile Include="SceneChangeTestComponent.cpp" />
+    <ClCompile Include="SceneDelayComponent.cpp" />
+    <ClCompile Include="SizeBox.cpp" />
+    <ClCompile Include="SkeletalMeshComponent.cpp" />
+    <ClCompile Include="SkeletalMeshRenderer.cpp" />
+    <ClCompile Include="SkinningAnimationComponent.cpp" />
+    <ClCompile Include="SpotLightComponent.cpp" />
+    <ClCompile Include="StatComponent.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="UIButtonComponent.cpp" />
+    <ClCompile Include="UIComponent.cpp" />
+    <ClCompile Include="UIDiceDisplayComponent.cpp" />
+    <ClCompile Include="UIDicePanelComponent.cpp" />
+    <ClCompile Include="UIDiceRollAnimationComponent.cpp" />
+    <ClCompile Include="UIFSMComponent.cpp" />
+    <ClCompile Include="UIImageComponent.cpp" />
+    <ClCompile Include="UINumberSpriteComponent.cpp" />
+    <ClCompile Include="UIObject.cpp" />
+    <ClCompile Include="UIProgressBarComponent.cpp" />
+    <ClCompile Include="UISliderComponent.cpp" />
+    <ClCompile Include="UITextComponent.cpp" />
+    <ClCompile Include="VendingComponent.cpp" />
+    <ClCompile Include="WaterRiseComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AI\AI.vcxproj">
+      <Project>{caef7820-a7a9-4733-b1b2-c39189190480}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Event\Event.vcxproj">
+      <Project>{f19d0681-a873-4297-bb00-e750294995e9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ResourceManager\ResourceManager.vcxproj">
+      <Project>{bc2c9dcb-3118-45b6-a6ef-087337daa9cb}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SoundSystem\SoundSystem.vcxproj">
+      <Project>{325c5192-b1ee-455d-9f9e-d0aec399023b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameObject.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿[*.fx]
+charset = utf-8
+
+[*.hlsl]
+charset = utf-8
+
+[*.{c,cc,cpp,cxx,h,hpp,inl}]
+charset = utf-8-bom
