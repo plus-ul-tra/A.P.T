@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/corridorWallCracked_02.matbin",
+    "skeleton": "Skels/corridorWallCracked_02.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/corridorWallCracked_02.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "corridorWallCracked_02",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

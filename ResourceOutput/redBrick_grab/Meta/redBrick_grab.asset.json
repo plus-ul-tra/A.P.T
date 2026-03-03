@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/redBrick_grab.matbin",
+    "skeleton": "Skels/redBrick_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/redBrick_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "redBrick_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

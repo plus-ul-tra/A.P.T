@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/squareTimber_grab.matbin",
+    "skeleton": "Skels/squareTimber_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/squareTimber_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "squareTimber_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

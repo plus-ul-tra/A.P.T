@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/medal_grab.matbin",
+    "skeleton": "Skels/medal_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/medal_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "medal_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

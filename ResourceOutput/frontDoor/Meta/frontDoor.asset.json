@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/frontDoor_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/frontDoor.matbin",
+    "skeleton": "Skels/frontDoor.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/frontDoor.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "frontDoor",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

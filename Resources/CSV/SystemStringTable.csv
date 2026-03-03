@@ -1,0 +1,3 @@
+Language,ProgramName,StartButtonString,OptionButtonString,ExitButtonString,LanguageSectionString,AudioSectionString,BGMSliderString,SFXSliderString,ConfirmButton,CancelButton, TurnEndButtonString
+한국어,어센션 프로토콜 테레도,게임 시작,옵션,종료,언어,사운드,배경음악,효과음,확인,취소,턴 종료
+English,Ascension Protocol Teredo,Start Game,Option,Exit,Language,Audio,BGM,SFX,Confirm,Cancel,End Turn

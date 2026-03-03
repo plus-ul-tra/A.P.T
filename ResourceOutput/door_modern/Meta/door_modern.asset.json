@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/door_modern_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/door_modern.matbin",
+    "skeleton": "Skels/door_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/door_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "door_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

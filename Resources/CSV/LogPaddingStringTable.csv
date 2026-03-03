@@ -1,0 +1,3 @@
+Language,isPaddingLocateAtFront,AttackSuccessLogPadding1,AttackSuccessLogPadding2,AttackFailLogPadding1,AttackFailLogPadding2,DropLogPadding,GetItemLogPadding,ThrowLogPadding,BuyItemLogPadding,SellLogPadding,GainHealthLogPadding1,GainHealthLogPadding2,LostHealthLogPadding1,LostHealthLogPadding2,MoveLogPadding,DeathLogPadding
+한국어,FALSE, 사용 , 공격함, 사용 , 공격 빗나감, 드롭, 획득함, 투척함, 구매함, 판매함,의 체력 ,만큼 회복함,의 체력 ,만큼 잃음,이동함,사망함
+English,TRUE,Attacked , with ,Missed , with ,Dropped ,Obtained ,Threw ,Bought ,Sold , restored , HP, lost , HP,Moved,Fell

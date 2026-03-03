@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/piles.matbin",
+    "skeleton": "Skels/piles.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/piles.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "piles",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

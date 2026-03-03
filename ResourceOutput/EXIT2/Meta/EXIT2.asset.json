@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/EXIT2.matbin",
+    "skeleton": "Skels/EXIT2.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/EXIT2.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "EXIT2",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

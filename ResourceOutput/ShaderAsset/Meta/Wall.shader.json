@@ -1,0 +1,5 @@
+﻿{
+  "name": "Wall",
+  "ps": "../../../MRenderer/fx/Demo_Wall_PS.cso",
+  "vs": "../../../MRenderer/fx/Demo_Wall_VS.cso"
+}

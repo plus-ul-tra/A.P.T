@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/crtTv.matbin",
+    "skeleton": "Skels/crtTv.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/crtTv.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "crtTv",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

@@ -1,0 +1,341 @@
+{
+    "editor": {
+        "EditorCamera": {
+            "eye": {
+                "x": 9.195169448852539,
+                "y": 37.39551544189453,
+                "z": -121.38025665283203
+            },
+            "look": {
+                "x": 9.087072372436523,
+                "y": 37.27701950073242,
+                "z": -120.39320373535156
+            },
+            "up": {
+                "x": -0.012899958528578281,
+                "y": 0.9929544925689697,
+                "z": 0.11779168993234634
+            }
+        }
+    },
+    "gameObjects": [
+        {
+            "components": [
+                {
+                    "data": {
+                        "Position": {
+                            "x": 1.2009999752044678,
+                            "y": 29.941999435424805,
+                            "z": 50.42554473876953
+                        },
+                        "Rotation": {
+                            "w": 1.0,
+                            "x": -0.0,
+                            "y": 0.0,
+                            "z": -0.0
+                        },
+                        "Scale": {
+                            "x": 32.65392303466797,
+                            "y": 38.048912048339844,
+                            "z": 4.927031517028809
+                        }
+                    },
+                    "type": "TransformComponent"
+                },
+                {
+                    "data": {
+                        "CastShadow": true,
+                        "Material": {
+                            "assetIndex": 0,
+                            "assetPath": "../ResourceOutput\\box_01\\Meta\\box_01.asset.json"
+                        },
+                        "Mesh": {
+                            "assetIndex": 0,
+                            "assetPath": "../ResourceOutput\\title_plane\\Meta\\title_plane.asset.json"
+                        },
+                        "ReceiveShadow": true,
+                        "RenderLayer": 1,
+                        "Visible": true
+                    },
+                    "type": "MeshRenderer"
+                },
+                {
+                    "data": {
+                        "Mesh": {
+                            "assetIndex": 0,
+                            "assetPath": "../ResourceOutput\\title_plane\\Meta\\title_plane.asset.json"
+                        },
+                        "MeshHandle": {
+                            "assetIndex": 0,
+                            "assetPath": "../ResourceOutput\\title_plane\\Meta\\title_plane.asset.json"
+                        },
+                        "SubMeshMaterialOverrides": []
+                    },
+                    "type": "MeshComponent"
+                },
+                {
+                    "data": {
+                        "Material": {
+                            "assetIndex": 0,
+                            "assetPath": "../ResourceOutput\\box_01\\Meta\\box_01.asset.json"
+                        },
+                        "MaterialHandle": {
+                            "assetIndex": 0,
+                            "assetPath": "../ResourceOutput\\box_01\\Meta\\box_01.asset.json"
+                        },
+                        "Overrides": {
+                            "overrides": {
+                                "baseColor": {
+                                    "a": 1.0,
+                                    "b": 1.0,
+                                    "g": 1.0,
+                                    "r": 1.0
+                                },
+                                "lightness": 1.0,
+                                "metallic": 0.0,
+                                "pixelShader": {
+                                    "assetIndex": 0,
+                                    "assetPath": "../MRenderer/fx/Demo_PS.hlsl"
+                                },
+                                "roughness": 0.5,
+                                "saturation": 1.0,
+                                "shaderAsset": {
+                                    "assetIndex": 0,
+                                    "assetPath": "../ResourceOutput\\ShaderAsset\\Meta\\Demo.shader.json"
+                                },
+                                "textures": [
+                                    {
+                                        "assetIndex": 0,
+                                        "assetPath": "../Resources/UI/deadUI.png"
+                                    },
+                                    {
+                                        "assetIndex": 0,
+                                        "assetPath": ""
+                                    },
+                                    {
+                                        "assetIndex": 0,
+                                        "assetPath": ""
+                                    },
+                                    {
+                                        "assetIndex": 0,
+                                        "assetPath": ""
+                                    },
+                                    {
+                                        "assetIndex": 0,
+                                        "assetPath": ""
+                                    },
+                                    {
+                                        "assetIndex": 0,
+                                        "assetPath": ""
+                                    }
+                                ],
+                                "vertexShader": {
+                                    "assetIndex": 0,
+                                    "assetPath": ""
+                                }
+                            }
+                        }
+                    },
+                    "type": "MaterialComponent"
+                },
+                {
+                    "data": {
+                        "DelaySeconds": 4.0,
+                        "Enabled": true,
+                        "TargetScene": "Title"
+                    },
+                    "type": "SceneDelayComponent"
+                }
+            ],
+            "name": "Dead"
+        },
+        {
+            "components": [
+                {
+                    "data": {
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Rotation": {
+                            "w": 1.0,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    },
+                    "type": "TransformComponent"
+                },
+                {
+                    "data": {
+                        "CastShadow": true,
+                        "Color": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "Contrast": 1.0,
+                        "Direction": {
+                            "x": 0.0,
+                            "y": -4.75,
+                            "z": 5.789999961853027
+                        },
+                        "Intensity": 1.0,
+                        "Position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "Saturation": 1.0
+                    },
+                    "type": "DirectionalLightComponent"
+                }
+            ],
+            "name": "DirectionalLight"
+        },
+        {
+            "components": [
+                {
+                    "data": {
+                        "Position": {
+                            "x": 9.195169448852539,
+                            "y": 37.39551544189453,
+                            "z": -121.38025665283203
+                        },
+                        "Rotation": {
+                            "w": 0.9967527389526367,
+                            "x": 0.05926435813307762,
+                            "y": -0.054416999220848083,
+                            "z": 0.003235497511923313
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    },
+                    "type": "TransformComponent"
+                },
+                {
+                    "data": {
+                        "Eye": {
+                            "x": 9.195169448852539,
+                            "y": 37.39551544189453,
+                            "z": -121.38025665283203
+                        },
+                        "FarZ": 1000.0,
+                        "Look": {
+                            "x": 9.087072372436523,
+                            "y": 37.27701950073242,
+                            "z": -120.39320373535156
+                        },
+                        "NearZ": 0.10000000149011612,
+                        "Ortho": {
+                            "height": 10.0,
+                            "width": 10.0
+                        },
+                        "OrthoOffCenter": {
+                            "bottom": -1.0,
+                            "left": -1.0,
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        "Perspective": {
+                            "aspect": 1.7835338115692139,
+                            "fov": 0.7853981852531433
+                        },
+                        "ProjectionMode": 0,
+                        "Up": {
+                            "x": -0.012899958528578281,
+                            "y": 0.9929544925689697,
+                            "z": 0.11779168993234634
+                        },
+                        "Viewport": {
+                            "height": 1081.0,
+                            "width": 1928.0
+                        }
+                    },
+                    "type": "CameraComponent"
+                }
+            ],
+            "name": "Editor Camera"
+        },
+        {
+            "components": [
+                {
+                    "data": {
+                        "Position": {
+                            "x": -0.2199999988079071,
+                            "y": 30.38749122619629,
+                            "z": -45.42900085449219
+                        },
+                        "Rotation": {
+                            "w": 1.0,
+                            "x": -0.0,
+                            "y": 0.0,
+                            "z": -0.0
+                        },
+                        "Scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    },
+                    "type": "TransformComponent"
+                },
+                {
+                    "data": {
+                        "Eye": {
+                            "x": -0.2199999988079071,
+                            "y": 30.38749122619629,
+                            "z": -45.42900085449219
+                        },
+                        "FarZ": 100.0,
+                        "Look": {
+                            "x": -0.2199999988079071,
+                            "y": 30.38749122619629,
+                            "z": -44.42900085449219
+                        },
+                        "NearZ": 1.0,
+                        "Ortho": {
+                            "height": 10.0,
+                            "width": 10.0
+                        },
+                        "OrthoOffCenter": {
+                            "bottom": -1.0,
+                            "left": -1.0,
+                            "right": 1.0,
+                            "top": 1.0
+                        },
+                        "Perspective": {
+                            "aspect": 1.5421686172485352,
+                            "fov": 0.7853981852531433
+                        },
+                        "ProjectionMode": 0,
+                        "Up": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0
+                        },
+                        "Viewport": {
+                            "height": 1660.0,
+                            "width": 2560.0
+                        }
+                    },
+                    "type": "CameraComponent"
+                }
+            ],
+            "name": "Main Camera"
+        }
+    ],
+    "ui": {
+        "bindings": {},
+        "objects": []
+    }
+}

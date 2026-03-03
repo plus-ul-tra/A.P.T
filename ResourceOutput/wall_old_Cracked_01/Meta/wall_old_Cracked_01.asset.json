@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/wall_old_Cracked_01.matbin",
+    "skeleton": "Skels/wall_old_Cracked_01.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/wall_old_Cracked_01.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "wall_old_Cracked_01",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

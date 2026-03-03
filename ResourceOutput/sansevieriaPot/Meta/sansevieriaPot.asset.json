@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/sansevieriaPot.matbin",
+    "skeleton": "Skels/sansevieriaPot.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/sansevieriaPot.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "sansevieriaPot",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

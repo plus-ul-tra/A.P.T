@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/wallCorner_modern.matbin",
+    "skeleton": "Skels/wallCorner_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/wallCorner_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "wallCorner_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

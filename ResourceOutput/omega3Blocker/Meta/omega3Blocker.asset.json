@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/omega3Blocker.matbin",
+    "skeleton": "Skels/omega3Blocker.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/omega3Blocker.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "omega3Blocker",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

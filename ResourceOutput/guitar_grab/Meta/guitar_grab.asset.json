@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/guitar_grab.matbin",
+    "skeleton": "Skels/guitar_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/guitar_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "guitar_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

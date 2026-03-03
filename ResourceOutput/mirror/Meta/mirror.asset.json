@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/mirror.matbin",
+    "skeleton": "Skels/mirror.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/mirror.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "mirror",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

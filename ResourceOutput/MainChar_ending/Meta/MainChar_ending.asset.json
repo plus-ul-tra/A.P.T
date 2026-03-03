@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/MainChar_ending.matbin",
+    "skeleton": "Skels/MainChar_ending.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/MainChar_ending.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "MainChar_ending",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

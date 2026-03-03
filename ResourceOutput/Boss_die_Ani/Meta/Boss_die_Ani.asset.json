@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/Boss_die_Ani_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/Boss_die_Ani.matbin",
+    "skeleton": "Skels/Boss_die_Ani.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/Boss_die_Ani.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "Boss_die_Ani",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

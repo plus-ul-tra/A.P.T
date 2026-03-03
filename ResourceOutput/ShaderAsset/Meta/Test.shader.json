@@ -1,0 +1,5 @@
+﻿{
+  "name": "Test",
+  "ps": "../../../MRenderer/fx/Test_PS.cso",
+  "vs": "../../../MRenderer/fx/Test_VS.cso"
+}

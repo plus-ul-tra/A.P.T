@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/beigeFlooringTile_half.matbin",
+    "skeleton": "Skels/beigeFlooringTile_half.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/beigeFlooringTile_half.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "beigeFlooringTile_half",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

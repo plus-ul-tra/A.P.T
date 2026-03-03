@@ -1,0 +1,3 @@
+DifficultyGroup,DropItemKey1,Quantity1,DropGoldMin,DropGoldMax,DropItemKey2,Quantity2,DropItemKey3,Quantity3,DropItemKey4,Quantity4,DropItemKey5,Quantity5,DropItemKey6,Quantity6,DropItemKey7,Quantity7,DropItemKey8,Quantity8,DropItemKey9,Quantity9,DropItemKey10,Quantity10
+1,1,65,5,15,11,30,101,3,102,3,1001,8,1002,10,1003,20,1004,15,,,,
+2,1,65,10,20,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/terrazzoTile_arrow.matbin",
+    "skeleton": "Skels/terrazzoTile_arrow.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/terrazzoTile_arrow.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "terrazzoTile_arrow",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

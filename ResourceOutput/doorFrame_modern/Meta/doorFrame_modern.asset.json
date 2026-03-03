@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/doorFrame_modern.matbin",
+    "skeleton": "Skels/doorFrame_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/doorFrame_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "doorFrame_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

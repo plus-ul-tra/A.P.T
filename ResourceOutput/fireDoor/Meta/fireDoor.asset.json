@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/fireDoor_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/fireDoor.matbin",
+    "skeleton": "Skels/fireDoor.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/fireDoor.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "fireDoor",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

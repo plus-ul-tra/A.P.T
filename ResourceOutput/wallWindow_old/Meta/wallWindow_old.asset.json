@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/wallWindow_old.matbin",
+    "skeleton": "Skels/wallWindow_old.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/wallWindow_old.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "wallWindow_old",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

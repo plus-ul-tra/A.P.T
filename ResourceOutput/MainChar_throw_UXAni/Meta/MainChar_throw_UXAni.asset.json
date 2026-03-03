@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/MainChar_throw_UXAni_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/MainChar_throw_UXAni.matbin",
+    "skeleton": "Skels/MainChar_throw_UXAni.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/MainChar_throw_UXAni.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "MainChar_throw_UXAni",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

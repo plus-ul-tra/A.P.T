@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/batAluminium_grab.matbin",
+    "skeleton": "Skels/batAluminium_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/batAluminium_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "batAluminium_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

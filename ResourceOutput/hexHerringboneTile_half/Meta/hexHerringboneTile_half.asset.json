@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/hexHerringboneTile_half.matbin",
+    "skeleton": "Skels/hexHerringboneTile_half.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/hexHerringboneTile_half.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "hexHerringboneTile_half",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/MainChar_combat_UXAni_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/MainChar_combat_UXAni.matbin",
+    "skeleton": "Skels/MainChar_combat_UXAni.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/MainChar_combat_UXAni.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "MainChar_combat_UXAni",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

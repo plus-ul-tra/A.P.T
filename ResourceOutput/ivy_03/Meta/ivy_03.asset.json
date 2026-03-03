@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/ivy_03.matbin",
+    "skeleton": "Skels/ivy_03.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/ivy_03.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "ivy_03",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

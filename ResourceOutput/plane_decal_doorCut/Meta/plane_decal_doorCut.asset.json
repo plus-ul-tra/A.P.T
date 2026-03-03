@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/plane_decal_doorCut.matbin",
+    "skeleton": "Skels/plane_decal_doorCut.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/plane_decal_doorCut.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "plane_decal_doorCut",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

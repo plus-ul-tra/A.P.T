@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/cheetah_idle_Ani_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/cheetah_idle_Ani.matbin",
+    "skeleton": "Skels/cheetah_idle_Ani.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/cheetah_idle_Ani.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "cheetah_idle_Ani",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

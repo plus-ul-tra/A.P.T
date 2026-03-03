@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/potLid.matbin",
+    "skeleton": "Skels/potLid.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/potLid.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "potLid",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

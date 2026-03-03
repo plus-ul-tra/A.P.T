@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/batWood.matbin",
+    "skeleton": "Skels/batWood.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/batWood.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "batWood",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

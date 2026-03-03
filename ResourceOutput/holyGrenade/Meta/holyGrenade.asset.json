@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/holyGrenade.matbin",
+    "skeleton": "Skels/holyGrenade.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/holyGrenade.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "holyGrenade",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

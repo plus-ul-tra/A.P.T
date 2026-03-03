@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/nameTag.matbin",
+    "skeleton": "Skels/nameTag.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/nameTag.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "nameTag",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

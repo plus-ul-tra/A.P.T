@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/fog1.matbin",
+    "skeleton": "Skels/fog1.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/fog1.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "fog1",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

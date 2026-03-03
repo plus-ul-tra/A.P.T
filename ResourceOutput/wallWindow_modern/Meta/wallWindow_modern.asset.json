@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/wallWindow_modern.matbin",
+    "skeleton": "Skels/wallWindow_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/wallWindow_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "wallWindow_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

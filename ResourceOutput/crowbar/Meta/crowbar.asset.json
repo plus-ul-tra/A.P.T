@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/crowbar.matbin",
+    "skeleton": "Skels/crowbar.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/crowbar.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "crowbar",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

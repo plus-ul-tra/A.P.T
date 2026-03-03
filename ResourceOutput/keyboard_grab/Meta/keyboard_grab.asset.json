@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/keyboard_grab.matbin",
+    "skeleton": "Skels/keyboard_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/keyboard_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "keyboard_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

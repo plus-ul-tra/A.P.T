@@ -1,0 +1,5 @@
+﻿{
+  "name": "Refraction",
+  "ps": "../../../MRenderer/fx/Demo_Refraction_PS.cso",
+  "vs": "../../../MRenderer/fx/Demo_Refraction_VS.cso"
+}

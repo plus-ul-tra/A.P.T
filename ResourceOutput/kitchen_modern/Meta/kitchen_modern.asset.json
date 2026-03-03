@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/kitchen_modern.matbin",
+    "skeleton": "Skels/kitchen_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/kitchen_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "kitchen_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

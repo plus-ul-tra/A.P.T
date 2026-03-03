@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/bbaldduItem.matbin",
+    "skeleton": "Skels/bbaldduItem.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/bbaldduItem.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "bbaldduItem",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

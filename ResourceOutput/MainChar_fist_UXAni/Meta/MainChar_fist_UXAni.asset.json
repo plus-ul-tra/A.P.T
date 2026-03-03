@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/MainChar_fist_UXAni_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/MainChar_fist_UXAni.matbin",
+    "skeleton": "Skels/MainChar_fist_UXAni.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/MainChar_fist_UXAni.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "MainChar_fist_UXAni",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

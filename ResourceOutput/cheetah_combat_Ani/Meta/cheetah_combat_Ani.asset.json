@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/cheetah_combat_Ani_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/cheetah_combat_Ani.matbin",
+    "skeleton": "Skels/cheetah_combat_Ani.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/cheetah_combat_Ani.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "cheetah_combat_Ani",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

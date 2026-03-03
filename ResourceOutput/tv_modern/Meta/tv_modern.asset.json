@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/tv_modern.matbin",
+    "skeleton": "Skels/tv_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/tv_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "tv_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

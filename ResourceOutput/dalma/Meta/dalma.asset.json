@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/dalma.matbin",
+    "skeleton": "Skels/dalma.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/dalma.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "dalma",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

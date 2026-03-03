@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/bookShelf_modern.matbin",
+    "skeleton": "Skels/bookShelf_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/bookShelf_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "bookShelf_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

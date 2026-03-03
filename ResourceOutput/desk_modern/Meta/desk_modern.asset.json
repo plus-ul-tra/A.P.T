@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/desk_modern.matbin",
+    "skeleton": "Skels/desk_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/desk_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "desk_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

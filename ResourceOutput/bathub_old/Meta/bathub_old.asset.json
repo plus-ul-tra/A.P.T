@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/bathub_old.matbin",
+    "skeleton": "Skels/bathub_old.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/bathub_old.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "bathub_old",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

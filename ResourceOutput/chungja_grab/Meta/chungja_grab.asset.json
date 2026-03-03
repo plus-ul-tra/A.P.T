@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/chungja_grab.matbin",
+    "skeleton": "Skels/chungja_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/chungja_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "chungja_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/verticalShelf_modern.matbin",
+    "skeleton": "Skels/verticalShelf_modern.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/verticalShelf_modern.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "verticalShelf_modern",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

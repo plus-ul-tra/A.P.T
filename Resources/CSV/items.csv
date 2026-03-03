@@ -1,0 +1,5 @@
+index,category,name,description,iconPath,meshPath,basePrice,difficultyGroup,minHealPercent,maxHealPercent,minDamage,maxDamage,healthModifier,strengthModifier,agilityModifier,senseModifier,skillModifier,defenseBonus,throwRange,range
+1,Equipment,Test Sword,Basic melee weapon,,,100,1,0,0,2,4,0,1,0,0,0,0,0,1
+2,Equipment,Test Axe,Heavy weapon,,,120,1,0,0,3,5,0,2,0,0,0,0,0,1
+3,Healing,Test Medkit,Restores health,,,60,1,10,20,0,0,5,0,0,0,0,0,0,0
+4,Throwable,Test Grenade,Throwable explosive,,,80,1,0,0,4,6,0,0,0,0,0,0,3,0

@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/chungja.matbin",
+    "skeleton": "Skels/chungja.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/chungja.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "chungja",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

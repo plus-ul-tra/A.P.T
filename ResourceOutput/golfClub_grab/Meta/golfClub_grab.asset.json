@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/golfClub_grab.matbin",
+    "skeleton": "Skels/golfClub_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/golfClub_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "golfClub_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

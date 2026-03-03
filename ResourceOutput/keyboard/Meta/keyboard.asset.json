@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/keyboard.matbin",
+    "skeleton": "Skels/keyboard.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/keyboard.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "keyboard",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

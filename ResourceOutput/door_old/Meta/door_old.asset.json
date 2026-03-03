@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/door_old_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/door_old.matbin",
+    "skeleton": "Skels/door_old.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/door_old.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "door_old",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

@@ -1,0 +1,5 @@
+﻿{
+  "name": "Ani",
+  "ps": "../../../MRenderer/fx/Demo_Ani_PS.cso",
+  "vs": "../../../MRenderer/fx/Demo_Ani_VS.cso"
+}

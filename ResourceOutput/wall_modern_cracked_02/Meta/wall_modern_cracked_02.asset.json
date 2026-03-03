@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/wall_modern_cracked_02.matbin",
+    "skeleton": "Skels/wall_modern_cracked_02.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/wall_modern_cracked_02.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "wall_modern_cracked_02",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

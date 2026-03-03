@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/milk_grab.matbin",
+    "skeleton": "Skels/milk_grab.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/milk_grab.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "milk_grab",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

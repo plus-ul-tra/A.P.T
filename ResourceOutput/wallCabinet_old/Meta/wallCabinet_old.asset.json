@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/wallCabinet_old.matbin",
+    "skeleton": "Skels/wallCabinet_old.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/wallCabinet_old.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "wallCabinet_old",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

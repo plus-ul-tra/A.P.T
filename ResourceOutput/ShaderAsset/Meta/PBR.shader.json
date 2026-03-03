@@ -1,0 +1,5 @@
+﻿{
+  "name": "PBR",
+  "ps": "../../../MRenderer/fx/Demo_PBR_PS.cso",
+  "vs": "../../../MRenderer/fx/Demo_PBR_VS.cso"
+}

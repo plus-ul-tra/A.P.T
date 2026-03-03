@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/E2_throw_Ani_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/E2_throw_Ani.matbin",
+    "skeleton": "Skels/E2_throw_Ani.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/E2_throw_Ani.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "E2_throw_Ani",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

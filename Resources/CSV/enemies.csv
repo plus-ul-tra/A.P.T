@@ -1,0 +1,2 @@
+id,name,health,initiativeModifier,defense,accuracyModifier,damageDiceCount,damageDiceValue,damageBonus,range,moveDistance,sightDistance,sightAngle,difficultyGroup,dropTableGroup
+1,Test Enemy,10,1,10,2,1,6,0,1,3,5.0,90.0,1,1

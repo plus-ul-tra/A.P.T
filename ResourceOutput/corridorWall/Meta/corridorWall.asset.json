@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/corridorWall.matbin",
+    "skeleton": "Skels/corridorWall.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/corridorWall.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "corridorWall",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/beigeFlooringTile_crack_02.matbin",
+    "skeleton": "Skels/beigeFlooringTile_crack_02.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/beigeFlooringTile_crack_02.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "beigeFlooringTile_crack_02",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

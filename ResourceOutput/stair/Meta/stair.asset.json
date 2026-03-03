@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/stair.matbin",
+    "skeleton": "Skels/stair.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/stair.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "stair",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

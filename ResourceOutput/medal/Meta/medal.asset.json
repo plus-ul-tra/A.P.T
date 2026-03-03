@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/medal.matbin",
+    "skeleton": "Skels/medal.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/medal.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "medal",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

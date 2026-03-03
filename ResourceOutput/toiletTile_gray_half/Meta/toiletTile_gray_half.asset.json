@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/toiletTile_gray_half.matbin",
+    "skeleton": "Skels/toiletTile_gray_half.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/toiletTile_gray_half.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "toiletTile_gray_half",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

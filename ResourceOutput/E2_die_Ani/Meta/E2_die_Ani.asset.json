@@ -1,0 +1,27 @@
+{
+  "animations": [
+    {
+      "file": "Anims/E2_die_Ani_Scene_0.anim.json",
+      "name": "Scene_0"
+    }
+  ],
+  "files": {
+    "materials": "Mats/E2_die_Ani.matbin",
+    "skeleton": "Skels/E2_die_Ani.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/E2_die_Ani.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "E2_die_Ani",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  },
+  "skeletonMeta": {
+    "lowerBodyBones": [],
+    "upperBodyBones": []
+  }
+}

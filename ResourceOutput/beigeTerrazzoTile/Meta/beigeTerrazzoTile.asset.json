@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/beigeTerrazzoTile.matbin",
+    "skeleton": "Skels/beigeTerrazzoTile.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/beigeTerrazzoTile.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "beigeTerrazzoTile",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

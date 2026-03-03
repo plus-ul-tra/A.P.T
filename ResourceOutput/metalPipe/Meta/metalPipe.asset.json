@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/metalPipe.matbin",
+    "skeleton": "Skels/metalPipe.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/metalPipe.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "metalPipe",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

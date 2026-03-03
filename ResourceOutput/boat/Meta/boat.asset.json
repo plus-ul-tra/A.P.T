@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/boat.matbin",
+    "skeleton": "Skels/boat.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/boat.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "boat",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

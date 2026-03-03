@@ -1,0 +1,18 @@
+{
+  "animations": [],
+  "files": {
+    "materials": "Mats/clawhammer.matbin",
+    "skeleton": "Skels/clawhammer.skelbin"
+  },
+  "meshes": [
+    {
+      "file": "Meshes/clawhammer.meshbin",
+      "isSkinned": false
+    }
+  ],
+  "name": "clawhammer",
+  "path": {
+    "baseDir": "..",
+    "textureDir": "Textures"
+  }
+}

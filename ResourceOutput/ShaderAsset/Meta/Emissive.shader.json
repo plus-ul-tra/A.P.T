@@ -1,0 +1,5 @@
+﻿{
+  "name": "Emissive",
+  "ps": "../../../MRenderer/fx/Demo_Emissive_PS.cso",
+  "vs": "../../../MRenderer/fx/Demo_Emissive_VS.cso"
+}
