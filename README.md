@@ -44,6 +44,14 @@ MIEditor
 <img width="3169" height="1967" alt="Throw" src="https://github.com/user-attachments/assets/9dcdb114-6091-49d5-8062-b364cfe2a9d1" />
 </p>
 
+전투 & 행동 주사위
+<p align="left">
+<img width="3177" height="1972" alt="Dice" src="https://github.com/user-attachments/assets/4bdb9b58-3855-473f-ad7b-9d9825dc2081" />
+</p>
+<p align="left">
+<img width="1590" height="1796" alt="Door" src="https://github.com/user-attachments/assets/172c062d-a7bc-4eed-84c0-cf3721ad8ddc" />
+</p>
+
 엔딩
 <p align="left">
 <img width="90%" src="https://github.com/user-attachments/assets/f00dc9fb-dbc5-42a0-8466-4989de20cb16">  
