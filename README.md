@@ -29,6 +29,21 @@ MIEditor
 <img width="90%" src="https://github.com/user-attachments/assets/bba55835-ff00-4a7a-9074-762aef2d0aea">  
 </p>
 
+게임 가이드
+<p align="left">
+<img width="3188" height="1988" alt="Guide" src="https://github.com/user-attachments/assets/dc8a976a-d8fe-45dc-a0e0-f8e21365fa39" />
+</p>
+
+인게임화면
+
+<p align="left">
+<img width="3177" height="1966" alt="Move" src="https://github.com/user-attachments/assets/28474545-608d-402a-9944-26c93e7f38b8" />
+</p>
+
+<p align="left">
+<img width="3169" height="1967" alt="Throw" src="https://github.com/user-attachments/assets/9dcdb114-6091-49d5-8062-b364cfe2a9d1" />
+</p>
+
 엔딩
 <p align="left">
 <img width="90%" src="https://github.com/user-attachments/assets/f00dc9fb-dbc5-42a0-8466-4989de20cb16">  
